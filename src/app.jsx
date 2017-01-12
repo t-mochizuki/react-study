@@ -3,13 +3,15 @@ import { render } from 'react-dom';
 
 import Hello from './components/hello';
 import World from './components/world';
-import RadioInput from './components/radio_input';
+import MultipleChoiceQuestion from './components/multiple_choice_question';
 
 render(
   <div>
     <Hello />
     <World />
-    <RadioInput />
+    <MultipleChoiceQuestion
+      choices={["RadioInput1", "RadioInput2"]}
+      value="RadioInput1" />
   </div>,
   document.getElementById('container')
 );
