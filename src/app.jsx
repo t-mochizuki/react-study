@@ -9,7 +9,9 @@ render(
   <div>
     <Hello />
     <World />
-    <RadioInput />
+    <RadioInput name="multiple-choice" value="choice-1" />
+    <RadioInput name="multiple-choice" value="choice-2" />
+    <RadioInput name="multiple-choice" value="choice-3" />
   </div>,
   document.getElementById('container')
 );

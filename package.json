@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "webpack --display-error-details --config webpack.config.js"
+    "build": "webpack --display-error-details --config webpack.config.js",
+    "watch": "webpack --watch --display-error-details --config webpack.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
